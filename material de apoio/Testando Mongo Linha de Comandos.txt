@@ -1,0 +1,74 @@
+-ENTRAR NO MONGO (PROMPT)
+
+- MOSTRA BANCOS
+show dbs
+
+- CRIANDO UM BANCO
+use bancoteste
+
+- MOSTRA BANCOS
+show dbs
+(o banco criado não aparece pois não tem nenhuma collection criada nele)
+
+- VERIFICANDO EM QUE BD ESTOU
+db
+
+- CRIANDO UMA COLLECTION
+uma collection é como se fosse cada registro de um BD relacional. Aqui chamamos de documentos
+db.documentos.insertOne({nome:"Anderson",idade:48})
+
+- FAZENDO UMA PESQUISA SIMPLES
+db.documentos.find()
+
+- CRIANDO OUTRA COLLECTION
+db.documentos.insertOne({nome:"Fulano",idade:48,profissao:"PROFESSOR"})
+
+- FAZENDO UMA PESQUISA SIMPLES
+db.documentos.find()
+
+- FAZENDO UMA PESQUISA POR NOME
+db.documentos.find({nome:"Fulano"})
+
+- FAZENDO UMA PESQUISA PARA MOSTRAR SOMENTE NOME
+db.documentos.find({},{nome:1})
+
+- INSERINDO DADOS MAIS COMPLEXOS
+db.documentos.insertOne({nome:"Cintia",idade:41,profissao:"DESENVOLVEDOR",hobies:["dançar","ler","viajar"]})
+
+- INSERINDO UM OUTRO DOCUMENTO DENTRO DE OUTRO
+db.documentos.insertOne({nome:"Astrogildo",idade:32,profissao:"DIRETOR",hobies:["dançar","ler","viajar"],endereco:{rua:"Travessa da Luz",numero:123,cidade:"MAUA",uf:"SP"}})
+
+- VISUALIZANDO OS DADOS INSERIDOS
+db.documentos.find()
+
+- MELHORANDO A VISUALIZAÇÃO
+db.documentos.find().pretty()
+
+- FAZENDO UM BKP DO BANCO DE DADOS
+criar uma pasta, entrar pelo cmd nesta pasta e executar o comando:
+mongodump --db bancoteste
+
+- APAGANDO UM BANCO DE DADOS
+entrar no prompt do mongo e selecionar o banco desejado
+use bancoteste
+
+em seguida usar o comando
+db.dropDatabase()
+
+- IMPORTANDO UM BANCO DE DADOS
+entrar em um prompt de comando do windows na pasta onde esta o BKP do Banco
+mongorestore --db bancoteste2 dump/bancoteste
+
+REALIZAR AS ETAPAS ANTERIORES E VERIFICAR OS ARQUIVOS IMPORTADOS NOVAMENTE
+
+
+
+
+
+
+
+
+
+
+
+
