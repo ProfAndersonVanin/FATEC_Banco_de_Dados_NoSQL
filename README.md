@@ -9,8 +9,14 @@
 
 # P2 (07/06/2023): 
 - Projeto de BD Não relacional (MongoDb) 100%
-  {documentação, esquema, dados, etc}
-Da ementa: Projeto Lógico do Banco de Dados – Não Relacional. Implementações práticas das principais categorias de Bancos de Dados NoSQL.
+- {documentação, esquema, tipo de dados, versões utilizadas etc} => **formatado em ABNT**
+- Insira códigos e expliquem como funciona cada trecho de código, incluam prints de código na documentação
+- Pode ser feita na linguagem de sua preferência (python, C#, Php, Java, Javascript, etc..)
+- Além da documentação em PDF, deve ser elaborada uma apresentação em POWER POINT ilustrativa do funcionamento de sua aplicação
+- Não é necessário ter um front end (mas seria muito bom ;-) )
+- Da ementa: Projeto Lógico do Banco de Dados – Não Relacional. Implementações práticas das principais categorias de Bancos de Dados NoSQL.
+
+## A P2 é um trabalho prático que pode ser desenvolvido em grupo (máx 5 alunos) ou individualmente
 
 # Trabalhos:
 - Introdução aos conceitos de Data Warehouse (17/04). 50%
