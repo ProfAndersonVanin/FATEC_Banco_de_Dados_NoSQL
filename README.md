@@ -31,6 +31,10 @@
 
 MEDIA FINAL = P1*0.35 + P2*0.35 + T*0.3
 
+# Cronograma de Reposição de aulas
+- 16/03 ==> reposição em ....
+
+
 
 # Ementa:  
 Dados estruturados e não estruturados. - OK 
