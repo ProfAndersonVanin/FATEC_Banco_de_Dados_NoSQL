@@ -34,7 +34,15 @@ MEDIA FINAL = P1*0.35 + P2*0.35 + T*0.3
 # Cronograma de Reposição de aulas
 - 16/03 ==> reposição em ....
 
+# XXI Workshop Tecnológico - Fatec Mauá - 2023
+Datas 16/05/2023 – 18/05/2023
 
+## Recomendado para a disciplina:
+- 18/05 DAS 19H00 AS 21H00: NTSec | Network Security - Segurança da Informação / Carreira Profissional
+- Tipo: Palestra, Local: B11
+
+- 18/05 DAS 19H00 AS 21H00: Desvendando a inteligência de dados: como transformar informações em insights valiosos
+- Tipo: Palestra, Local: B12
 
 # Ementa:  
 Dados estruturados e não estruturados. - OK 
