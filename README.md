@@ -34,7 +34,7 @@ MEDIA FINAL = P1*0.35 + P2*0.35 + T*0.3
 # Cronograma de Reposição de aulas
 - 16/03 ==> reposição em ....
 
-# XXI Workshop Tecnológico - Fatec Mauá - 2023
+# $${\color{red}XXI Workshop Tecnológico - Fatec Mauá - 2023}$$ 
 Datas 16/05/2023 – 18/05/2023
 
 ## Recomendado para a disciplina:
